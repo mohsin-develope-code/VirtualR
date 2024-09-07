@@ -1,8 +1,17 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<h2>Technical Landing Page using React.js and TailwindCSS</h2> <a href="https://virtual-r-murex.vercel.app/">Live</a>
 
-Currently, two official plugins are available:
+<p>
+        Developed a responsive, modern landing page using React.js and TailwindCSS to showcase service. Implemented a mobile-first design, custom Tailwind theme configurations. Optimized performance using lazy loading and code splitting, achieving a fast, smooth user experience. Deployed the site on Vercel.
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ul>
+        <li>Designed intuitive navigation and clean interfaces.</li>
+        <li>Used semantic HTML elements for better screen reader support.</li>
+        <li>Built modular components (e.g. Cards & Buttons) to promote reusability and maintainability.</li>
+        <li>Implemented lazy loading in the landing page to improve loading time.</li>
+</ul>
+
+
+
+
