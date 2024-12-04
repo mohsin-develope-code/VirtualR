@@ -1,6 +1,5 @@
 
 import { useState } from 'react'
-import './App.css'
 import Feature from './Componenets/Feature/Feature'
 import Footer from './Componenets/Footer/Footer'
 import HeroContainer from './Componenets/HeroContainer'
