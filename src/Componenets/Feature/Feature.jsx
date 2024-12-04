@@ -1,4 +1,3 @@
-import React from 'react'
 import {features}  from './featureData';
 
 import { BotMessageSquare } from "lucide-react";
