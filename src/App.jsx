@@ -1,4 +1,5 @@
 
+import { useState } from 'react'
 import './App.css'
 import Feature from './Componenets/Feature/Feature'
 import Footer from './Componenets/Footer/Footer'
@@ -8,11 +9,23 @@ import Pricing from './Componenets/Price/Pricing'
 import Testimonial from './Componenets/Testimonial/Testimonial'
 import WorkFlow from './Componenets/Workflow/WorkFlow'
 
+
+
+
+
+
+
+
+
+
 function App() {
+
+  
   
 
   return (
     <div>
+    
       <div>
         <NavBar/>
       </div>

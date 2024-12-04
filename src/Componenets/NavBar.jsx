@@ -29,23 +29,24 @@ const NavBar = () => {
             </div>
 
 
-            <ul className='hidden md:flex space-x-9'>
+          
+            <div className='hidden list-none md:flex gap-6'>
               {
                 menuData.map((value)=> (
-                  <li className='hover:text-orange-500 hover:font-bold hover:duration-100'>
-                     <a href="#">{value}</a>
+                  <li className='hover:text-orange-500 cursor-pointer hover:font-medium hover:duration-100'>
+                     {value}
                   </li>
                 ))
               }
-            </ul>
-
+            </div>
+          
 
             <div className="md:flex space-x-12 items-center justify center hidden">
-               <a className='border px-3 py-2 rounded-md' href="#">
+               <a className='border px-3 py-2 rounded-md hover:bg-orange-500 hover:text-black hover:transition-all hover:scale-110 hover:duration-200 ease-in-out duration-150' href="#">
                   Sign in
                </a>
 
-               <a className='bg-gradient-to-r from-orange-500 to-orange-800 px-3 py-2 rounded-md' href="#">
+               <a className='bg-gradient-to-r from-orange-500 to-orange-800 px-3 py-2 rounded-md hover:transition-all hover:scale-110 hover:duration-200 ease-in-out duration-150' href="#">
                   Creates an account
                </a>
             </div>

@@ -12,7 +12,7 @@ const Pricing = () => {
         <div className="flex flex-wrap py-10">
             {
                 pricingOptions.map((data, i)=> (
-                    <div key={i} className="w-full md:w-1/3 p-2">
+                    <div key={i} className="w-full md:w-1/3 p-2 hover:transition-all hover:scale-y-95 cursor-pointer hover:duration-300 hover:ease-in-out">
                         <div className='px-8 py-10 border border-neutral-700 rounded-xl'>
                             
                             <p className='text-4xl mb-8'>
